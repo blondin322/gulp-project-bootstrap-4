@@ -1,0 +1,44 @@
+.btn-primary,
+.btn-secondary {
+    
+    color: $white;  
+}
+
+.btn-primary {
+    &:hover {
+        background-color: $btn-focus;
+        border-color: $btn-focus;
+    }
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 0.9375rem;
+    margin-bottom: 10px;
+}
+
+a:focus {
+
+    outline: 1px solid $primary;
+}
+
+a:focus-within {
+
+    outline: 1px solid $primary;
+}
+
+button:focus {
+    outline: 1px solid $primary;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+    outline: 1px solid $primary;
+    background-color: $btn-focus;
+}
+
+.btn-secondary:focus {
+    box-shadow: none;
+    outline: 1px solid $primary;
+}
+ 

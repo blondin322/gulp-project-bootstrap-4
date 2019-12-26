@@ -1,0 +1,61 @@
+$breakpoints: (
+  'xs': 320px,
+  'sm': 576px,
+  'md': 767px,
+  'lg': 992px,
+  'xl': 1200px
+);
+
+// keywords
+$media-expressions: (
+  'screen': 'screen',
+  'print': 'print',
+  'handheld': 'handheld',
+  'landscape': '(orientation: landscape)',
+  'portrait': '(orientation: portrait)',
+  'retina2x': '(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)',
+  'retina3x': '(-webkit-min-device-pixel-ratio: 2.5), (min-resolution: 240dpi)'
+);
+
+// ligatured operators ≥ ≤
+
+
+// Icon fonts
+@import 'vendors/fontawesome_free/fontawesome';
+@import 'vendors/fontawesome_free/brands';
+@import 'vendors/fontawesome_free/regular';
+@import 'vendors/fontawesome_free/solid';
+@import 'vendors/fontawesome_free/v4-shims';
+
+
+//@import 'vendors/fontawesome_pro/fontawesome'; 
+//@import 'vendors/fontawesome_pro/brands';
+//@import 'vendors/fontawesome_pro/solid';
+//@import 'vendors/fontawesome_pro/regular';
+//@import 'vendors/fontawesome_pro/v4-shims';
+//@import 'vendors/fontawesome_pro/light';
+//@import 'vendors/fontawesome_pro/duotone'; 
+ 
+
+// Add vendors 
+// @import 'vendors/icomoon'; 
+// @import 'vendors/fancybox';  
+
+
+ 
+@import "bootstrap";
+@import 'base/mixins';  
+// @import 'base/helpers';
+// @import 'base/typography'; 
+
+
+@import 'layout/header';
+@import 'layout/common';
+@import 'layout/footer'; 
+
+
+
+ 
+
+
+
